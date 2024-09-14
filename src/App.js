@@ -69,9 +69,11 @@ function App() {
             <button className="close-btn" onClick={closeCarousel}>×</button>
             <button className="prev-btn" onClick={goToPrevious}>←</button>
             <div className="carousel-content">
-              <img src={cards[currentIndex].imageUrl} alt={cards[currentIndex].name} className="carousel-image" />
-              <h2>{cards[currentIndex].name}</h2>
-              <p>{cards[currentIndex].description}</p>
+              <div key={cards[currentIndex].id} className="card-extended">
+                <img src={cards[currentIndex].imageUrl} alt={cards[currentIndex].name} className="card-image" />
+                <h2>{cards[currentIndex].name}</h2>
+                <p>{cards[currentIndex].description}</p>
+              </div>
             </div>
             <button className="next-btn" onClick={goToNext}>→</button>
           </div>
