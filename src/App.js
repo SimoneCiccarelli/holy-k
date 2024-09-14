@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import cardImage from './assets/images/150.png';
+import stAnthony from './assets/images/st-anthony.png';
+import stDanilo from './assets/images/st-danilo.png';
+import stErica from './assets/images/st-erica.png';
+import stLuca from './assets/images/st-luca.png';
+import stMarcello from './assets/images/st-marcello.png';
+import stMatteo from './assets/images/st-matteo.png';
+import stMichael from './assets/images/st-michael.png';
+import stSergio from './assets/images/st-sergio.png';
+import stsAndreaJacopoFabio from './assets/images/sts-andrea-jacopo-fabio.png';
+
 import logo from './assets/images/logo.png';
 
 function App() {
@@ -9,18 +18,15 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const cards = [
-    { id: 1, name: 'Card 1', imageUrl: cardImage, description: 'Descrizione 1' },
-    { id: 2, name: 'Card 2', imageUrl: cardImage, description: 'Descrizione 2' },
-    { id: 3, name: 'Card 3', imageUrl: cardImage, description: 'Descrizione 3' },
-    { id: 4, name: 'Card 4', imageUrl: cardImage, description: 'Descrizione 4' },
-    { id: 5, name: 'Card 5', imageUrl: cardImage, description: 'Descrizione 5' },
-    { id: 6, name: 'Card 6', imageUrl: cardImage, description: 'Descrizione 6' },
-    { id: 7, name: 'Card 7', imageUrl: cardImage, description: 'Descrizione 7' },
-    { id: 8, name: 'Card 8', imageUrl: cardImage, description: 'Descrizione 8' },
-    { id: 9, name: 'Card 9', imageUrl: cardImage, description: 'Descrizione 9' },
-    { id: 10, name: 'Card 10', imageUrl: cardImage, description: 'Descrizione 10' },
-    { id: 11, name: 'Card 11', imageUrl: cardImage, description: 'Descrizione 11' },
-    { id: 12, name: 'Card 12', imageUrl: cardImage, description: 'Descrizione 12' },
+    { id: 1, name: 'Saint Anthony', imageUrl: stAnthony, description: 'Protector of the sins of the flesh' },
+    { id: 2, name: 'Saint Danilo', imageUrl: stDanilo, description: 'Oh!!! I’m the office manager!!!' },
+    { id: 3, name: 'Saint Erica', imageUrl: stErica, description: 'Protector of all deliveries' },
+    { id: 4, name: 'Saint Luca', imageUrl: stLuca, description: 'Protector of all requests (Proper and Improper)' },
+    { id: 5, name: 'Saint Marcello', imageUrl: stMarcello, description: 'Protector of the drunkards' },
+    { id: 6, name: 'Saint Matteo', imageUrl: stMatteo, description: 'Protector of all Salesforce' },
+    { id: 7, name: 'Saint Michael', imageUrl: stMichael, description: 'Protector of all business solutions (support specialist at heart)' },
+    { id: 8, name: 'Saint Sergio from Bronxl', imageUrl: stSergio, description: 'Protector of the entire internet (or maybe not)' },
+    { id: 9, name: 'Saints Andrea, Jacopo, & Fabio', imageUrl: stsAndreaJacopoFabio, description: 'Engineers and protectors of all clouds' },
   ];
 
   const openCarousel = (index) => {
@@ -44,7 +50,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="top-bar">
-          <img src={logo} alt="HolyK Logo" className="logo" />
+          <img src={logo} alt="HolyK" className="logo" />
         </div>
       </header>
       <main>
