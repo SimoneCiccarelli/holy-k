@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/holy-k/static/css/main.69926c6c.css",
-    "main.js": "/holy-k/static/js/main.bffb160b.js",
+    "main.css": "/holy-k/static/css/main.b5d0698a.css",
+    "main.js": "/holy-k/static/js/main.b623edf7.js",
     "static/js/453.047285b1.chunk.js": "/holy-k/static/js/453.047285b1.chunk.js",
     "static/media/st-michael.png": "/holy-k/static/media/st-michael.714bb559ac8f4df1be46.png",
     "static/media/sts-andrea-jacopo-fabio.png": "/holy-k/static/media/sts-andrea-jacopo-fabio.ccbeeda1ddf664d5c372.png",
@@ -14,12 +14,12 @@
     "static/media/st-danilo.png": "/holy-k/static/media/st-danilo.43d9a6216e4bd7003aa7.png",
     "static/media/logo.png": "/holy-k/static/media/logo.a672eb225087d0f272b9.png",
     "index.html": "/holy-k/index.html",
-    "main.69926c6c.css.map": "/holy-k/static/css/main.69926c6c.css.map",
-    "main.bffb160b.js.map": "/holy-k/static/js/main.bffb160b.js.map",
+    "main.b5d0698a.css.map": "/holy-k/static/css/main.b5d0698a.css.map",
+    "main.b623edf7.js.map": "/holy-k/static/js/main.b623edf7.js.map",
     "453.047285b1.chunk.js.map": "/holy-k/static/js/453.047285b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69926c6c.css",
-    "static/js/main.bffb160b.js"
+    "static/css/main.b5d0698a.css",
+    "static/js/main.b623edf7.js"
   ]
 }
