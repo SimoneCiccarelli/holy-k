@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #272b30eb;
 }
 
 h2 {
@@ -11,7 +12,7 @@ p {
 }
 
 .top-bar {
-  background-color: #282c34;
+  background-color: #010409;
   padding: 20px;
   color: white;
   display: flex;
