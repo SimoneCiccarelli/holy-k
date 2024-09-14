@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 import cardImage from './assets/images/150.png';
-import logo from './assets/images/150.png';
+import logo from './assets/images/logo.png';
 
 function App() {
   const [isCarouselOpen, setIsCarouselOpen] = useState(false);

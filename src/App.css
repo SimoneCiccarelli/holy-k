@@ -92,3 +92,7 @@
 .next-btn {
   right: 20px;
 }
+
+body {
+  cursor: url('./assets/images/cursor.png'), auto;
+}
