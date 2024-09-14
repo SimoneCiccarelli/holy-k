@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSwipeable } from 'react-swipeable';
 import './App.css';
 
 import stAnthony from './assets/images/st-anthony.png';
@@ -66,6 +67,13 @@ function App() {
     };
   }, [isCarouselOpen]);
 
+  const handlers = useSwipeable({
+    onSwipedLeft: () => goToNext(),
+    onSwipedRight: () => goToPrevious(),
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true,
+  });
+
   return (
     <div className="App">
       <header className="App-header">
@@ -85,7 +93,7 @@ function App() {
         </div>
 
         {isCarouselOpen && (
-          <div className="carousel-overlay">
+          <div className="carousel-overlay" {...handlers}>
             <button className="close-btn" onClick={closeCarousel}>×</button>
             <button className="prev-btn" onClick={goToPrevious}>←</button>
             <div className="carousel-content">
