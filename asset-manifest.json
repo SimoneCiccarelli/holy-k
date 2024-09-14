@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/holy-k/static/css/main.12450daf.css",
+    "main.js": "/holy-k/static/js/main.1f0c48fd.js",
+    "static/js/453.047285b1.chunk.js": "/holy-k/static/js/453.047285b1.chunk.js",
+    "index.html": "/holy-k/index.html",
+    "main.12450daf.css.map": "/holy-k/static/css/main.12450daf.css.map",
+    "main.1f0c48fd.js.map": "/holy-k/static/js/main.1f0c48fd.js.map",
+    "453.047285b1.chunk.js.map": "/holy-k/static/js/453.047285b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12450daf.css",
+    "static/js/main.1f0c48fd.js"
+  ]
+}
