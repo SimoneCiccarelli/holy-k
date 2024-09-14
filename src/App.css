@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
 .top-bar {
   background-color: #282c34;
   padding: 20px;
@@ -30,6 +38,7 @@
   margin: 10px;
   width: 220px;
   cursor: pointer;
+  font-family: 'Great Vibes', cursive; 
 }
 
 .card-extended {
@@ -38,8 +47,9 @@
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  width: 50%;
+  width: 40%;
   cursor: pointer;
+  font-family: 'Great Vibes', cursive; 
 }
 
 .card-image {
@@ -68,9 +78,9 @@
 
 .close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 30px;
+  top: 15px;
+  right: 15px;
+  font-size: 50px;
   color: white;
   background: none;
   border: none;
@@ -89,9 +99,9 @@
 }
 
 .prev-btn {
-  left: 20px;
+  left: 15px;
 }
 
 .next-btn {
-  right: 20px;
+  right: 15px;
 }
